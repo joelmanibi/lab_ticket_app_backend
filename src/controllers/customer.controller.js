@@ -104,7 +104,7 @@ const Booking = db.booking;
             model: Stadium
           }
         ],
-       // order: [['event_id', 'DESC']] // Tri par ordre décroissant de l'ID
+        order: [['event_id', 'ASC']] // Tri par ordre décroissant de l'ID
       }
     )
       .then(event => {
